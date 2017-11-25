@@ -1,12 +1,10 @@
-idea-sublime-keymap
-===================
+Sublime Keymap for PHPStorm 
+===========================
 
-Dirty version of Sublime keymap for Jetbrains IDEA (PHPStorm, RubyMine, PyCharm, ...)
+PHPStorm is an excellent piece of software but it's default keymap sucks balls. I've forked this from ekaragodin and am changing it to reflect missing shortcuts in his version. I'm working from OSX so this file will reflect that only. Use at your own risk. No guarantees.
 
 ### Install
 
 Copy Sublime.xml to config directory.
 
-Windows and *NIX systems: `<User home>/.IntelliJ IDEA <xx>/config/keymaps/`
-
-Macintosh systems: `~/Library/Preferences/.IntelliJ IDEA <xx>/keymaps/`
+e.g. Mac: `~/Library/Preferences/WebIde100/keymaps`
