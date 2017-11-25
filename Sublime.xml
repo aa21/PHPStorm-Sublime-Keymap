@@ -51,6 +51,12 @@
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="meta button1" />
+  </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="meta alt up" />
@@ -161,6 +167,7 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
+  <action id="Images.Thumbnails.UpFolder" />
   <action id="ImplementMethods" />
   <action id="IncrementalSearch">
     <keyboard-shortcut first-keystroke="meta i" />
