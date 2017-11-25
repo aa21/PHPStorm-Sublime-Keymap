@@ -1,4 +1,13 @@
 <keymap version="1" name="Sublime" parent="$default">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
@@ -27,6 +36,15 @@
   <action id="DatabaseView.CopyAction" />
   <action id="DatabaseView.ShowDiff" />
   <action id="Diff.UpdatedFiles" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
